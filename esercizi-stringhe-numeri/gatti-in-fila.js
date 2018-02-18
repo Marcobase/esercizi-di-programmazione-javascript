@@ -12,3 +12,11 @@
   Hint: Se vuoi usare l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su) ma utilizza Math.ceil (arrotonda sempre all'intero superiore).
   http://www.imparareaprogrammare.it
 */
+var ngatti=44;
+var gxfila=6;
+var file=ngatti/gxfila;
+var nfileok=Math.ceil(file);
+console.log(nfileok);
+var man=nfileok*gxfila;
+var mancanti=man-ngatti;
+console.log(mancanti);
